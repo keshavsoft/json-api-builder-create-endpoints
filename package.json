@@ -1,5 +1,5 @@
 {
-  "name": "@keshavsoft/json-api-builder-create-endpoints",
+  "name": "json-api-builder-create-endpoints",
   "version": "1.0.0",
   "description": "Create resource and file-sync endpoints stage for JSON API Builder.",
   "type": "module",
