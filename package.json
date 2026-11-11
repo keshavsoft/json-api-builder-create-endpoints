@@ -26,5 +26,15 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "license": "MIT",
+  "author": "KeshavSoft",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavsoft/json-api-builder-create-endpoints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keshavsoft/json-api-builder-create-endpoints/issues"
+  },
+  "homepage": "https://github.com/keshavsoft/json-api-builder-create-endpoints#readme"
 }
