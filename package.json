@@ -1,0 +1,30 @@
+{
+  "name": "@keshavsoft/json-api-builder-create-endpoints",
+  "version": "1.0.0",
+  "description": "Create resource and file-sync endpoints stage for JSON API Builder.",
+  "type": "module",
+  "main": "./src/v1/index.js",
+  "exports": {
+    ".": "./src/v1/index.js",
+    "./v1": "./src/v1/index.js",
+    "./create-endpoints": "./src/v1/create-endpoints.js",
+    "./file-sync": "./src/v1/file-sync/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check ./src/v1/index.js",
+    "test": "node --test ./test/v1/index.test.js",
+    "prepublishOnly": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {}
+}
